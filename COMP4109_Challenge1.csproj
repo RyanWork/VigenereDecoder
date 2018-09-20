@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCA5F039-9C2B-483A-9DAF-23DAACD785F0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>COMP4109_Challenge1</RootNamespace>
+    <AssemblyName>COMP4109_Challenge1</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Resources\cipher102.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cipher0.txt" />
+    <Content Include="Resources\cipher1.txt" />
+    <Content Include="Resources\cipher10.txt" />
+    <Content Include="Resources\cipher100.txt" />
+    <Content Include="Resources\cipher101.txt" />
+    <Content Include="Resources\cipher102.txt" />
+    <Content Include="Resources\cipher103.txt" />
+    <Content Include="Resources\cipher104.txt" />
+    <Content Include="Resources\cipher105.txt" />
+    <Content Include="Resources\cipher106.txt" />
+    <Content Include="Resources\cipher11.txt" />
+    <Content Include="Resources\cipher12.txt" />
+    <Content Include="Resources\cipher13.txt" />
+    <Content Include="Resources\cipher14.txt" />
+    <Content Include="Resources\cipher15.txt" />
+    <Content Include="Resources\cipher16.txt" />
+    <Content Include="Resources\cipher17.txt" />
+    <Content Include="Resources\cipher18.txt" />
+    <Content Include="Resources\cipher19.txt" />
+    <Content Include="Resources\cipher2.txt" />
+    <Content Include="Resources\cipher20.txt" />
+    <Content Include="Resources\cipher21.txt" />
+    <Content Include="Resources\cipher22.txt" />
+    <Content Include="Resources\cipher23.txt" />
+    <Content Include="Resources\cipher24.txt" />
+    <Content Include="Resources\cipher25.txt" />
+    <Content Include="Resources\cipher26.txt" />
+    <Content Include="Resources\cipher27.txt" />
+    <Content Include="Resources\cipher28.txt" />
+    <Content Include="Resources\cipher29.txt" />
+    <Content Include="Resources\cipher3.txt" />
+    <Content Include="Resources\cipher30.txt" />
+    <Content Include="Resources\cipher31.txt" />
+    <Content Include="Resources\cipher32.txt" />
+    <Content Include="Resources\cipher33.txt" />
+    <Content Include="Resources\cipher34.txt" />
+    <Content Include="Resources\cipher35.txt" />
+    <Content Include="Resources\cipher36.txt" />
+    <Content Include="Resources\cipher37.txt" />
+    <Content Include="Resources\cipher38.txt" />
+    <Content Include="Resources\cipher39.txt" />
+    <Content Include="Resources\cipher4.txt" />
+    <Content Include="Resources\cipher40.txt" />
+    <Content Include="Resources\cipher41.txt" />
+    <Content Include="Resources\cipher42.txt" />
+    <Content Include="Resources\cipher43.txt" />
+    <Content Include="Resources\cipher44.txt" />
+    <Content Include="Resources\cipher45.txt" />
+    <Content Include="Resources\cipher46.txt" />
+    <Content Include="Resources\cipher47.txt" />
+    <Content Include="Resources\cipher48.txt" />
+    <Content Include="Resources\cipher49.txt" />
+    <Content Include="Resources\cipher5.txt" />
+    <Content Include="Resources\cipher50.txt" />
+    <Content Include="Resources\cipher51.txt" />
+    <Content Include="Resources\cipher52.txt" />
+    <Content Include="Resources\cipher53.txt" />
+    <Content Include="Resources\cipher54.txt" />
+    <Content Include="Resources\cipher55.txt" />
+    <Content Include="Resources\cipher56.txt" />
+    <Content Include="Resources\cipher57.txt" />
+    <Content Include="Resources\cipher58.txt" />
+    <Content Include="Resources\cipher59.txt" />
+    <Content Include="Resources\cipher6.txt" />
+    <Content Include="Resources\cipher60.txt" />
+    <Content Include="Resources\cipher61.txt" />
+    <Content Include="Resources\cipher62.txt" />
+    <Content Include="Resources\cipher63.txt" />
+    <Content Include="Resources\cipher64.txt" />
+    <Content Include="Resources\cipher65.txt" />
+    <Content Include="Resources\cipher66.txt" />
+    <Content Include="Resources\cipher67.txt" />
+    <Content Include="Resources\cipher68.txt" />
+    <Content Include="Resources\cipher69.txt" />
+    <Content Include="Resources\cipher7.txt" />
+    <Content Include="Resources\cipher70.txt" />
+    <Content Include="Resources\cipher71.txt" />
+    <Content Include="Resources\cipher72.txt" />
+    <Content Include="Resources\cipher73.txt" />
+    <Content Include="Resources\cipher74.txt" />
+    <Content Include="Resources\cipher75.txt" />
+    <Content Include="Resources\cipher76.txt" />
+    <Content Include="Resources\cipher77.txt" />
+    <Content Include="Resources\cipher78.txt" />
+    <Content Include="Resources\cipher79.txt" />
+    <Content Include="Resources\cipher8.txt" />
+    <Content Include="Resources\cipher80.txt" />
+    <Content Include="Resources\cipher81.txt" />
+    <Content Include="Resources\cipher82.txt" />
+    <Content Include="Resources\cipher83.txt" />
+    <Content Include="Resources\cipher84.txt" />
+    <Content Include="Resources\cipher85.txt" />
+    <Content Include="Resources\cipher86.txt" />
+    <Content Include="Resources\cipher87.txt" />
+    <Content Include="Resources\cipher88.txt" />
+    <Content Include="Resources\cipher89.txt" />
+    <Content Include="Resources\cipher9.txt" />
+    <Content Include="Resources\cipher90.txt" />
+    <Content Include="Resources\cipher91.txt" />
+    <Content Include="Resources\cipher92.txt" />
+    <Content Include="Resources\cipher93.txt" />
+    <Content Include="Resources\cipher94.txt" />
+    <Content Include="Resources\cipher95.txt" />
+    <Content Include="Resources\cipher96.txt" />
+    <Content Include="Resources\cipher97.txt" />
+    <Content Include="Resources\cipher98.txt" />
+    <Content Include="Resources\cipher99.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
