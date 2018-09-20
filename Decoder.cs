@@ -146,10 +146,10 @@ namespace COMP4109_Challenge1
 
           // If our character is out of range, roll over the alphabet
           if (decryptedChar < 'A')
-            decryptedChar = decryptedChar + 90;
-
-          if (decryptedChar > 'Z')
-            decryptedChar = decryptedChar - 65 - (26 + i);
+          {
+            int rollover = 'A' - decryptedChar; // Determine how far we went passed 'A'
+            decryptedChar = 'Z' - rollover + 1; // + 1 because the character has already rolled over
+          }
 
           decryptedChars.Add(Convert.ToChar(decryptedChar));
         }
